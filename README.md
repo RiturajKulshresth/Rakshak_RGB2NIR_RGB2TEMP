@@ -52,8 +52,19 @@ Similar experiments with the IITJ datasets gave us the below results -
 All the code files are organized according to the datasets that it operates on. Some of them are experiments done along the way to achieve the final results and the rest are the actual code that contribute to the final result. To run and get the resluts shown above, follow the steps given below 
 
 ### Run for Dataset I 
-All files can be found in the directory ""
+All files can be found in the directory "Final_codes/Dataset_I". To get the temperature prediction using selfdata run in the following order
+
+- "Final codes/Dataset I/forehead crop.ipynb" to crop the original data
+- "Final codes/Dataset I/Dataset_generation_selfdata.ipynb" to generate dataset
+- "Final codes/Dataset I/Selfdata_model.ipynb" to get the models
+- "Final codes/Dataset I/Predict_selfdata_temp.ipynb" to predict the temperature of the forehead
 
 ### Run for EPFL Dataset
 
+
 ### Run for IITJ Dataset
+All files can be found in directory "Final_codes/IITJ_Dataset". To get the RGB to NIR and temperature prediction using IITJ dataset, run in the following order
+
+- "VidToImg.py" to convert the video data to frames and extract the faces
+- "RGB_to_NIR_Rakshak Colab 1.ipynb" to trian the model and predict NIR equivalent of an RGB image
+- "RGBtoTEMP_Rakshak.ipynb" to predict temperatures
