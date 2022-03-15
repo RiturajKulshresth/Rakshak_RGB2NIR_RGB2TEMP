@@ -49,7 +49,7 @@ Similar experiments with the IITJ datasets gave us the below results -
 
 ## Code
 
-All the code files are organized according to the datasets that it operates on. Some of them are experiments done along the way to achieve the final results and the rest are the actual code that contribute to the final result. To run and get the resluts shown above, follow the steps given below 
+All the code files are organized according to the datasets that it operates on. Some of them are experiments done along the way to achieve the final results and the rest are the actual code that contribute to the final result. To run and get the resluts shown above, follow the steps given below (Before running, make sure to check that all paths for input and output match your system).
 
 ### Run for Dataset I 
 All files can be found in the directory "Final_codes/Dataset_I". To get the temperature prediction using selfdata run in the following order
@@ -64,6 +64,7 @@ Since the dataset is rather small, the data can be easily restructured manually 
 
 - "RGN_to_NIR_Flir_Colab_1.ipynb" to train and predict NIR from RGB
 - "RgbToNir.py" is the same as the above notebook, just in the form of .py file.
+- "joint_bilateral_Filter.py" is used for post processing the image.
 
 ### Run for IITJ Dataset
 All files can be found in directory "Final_codes/IITJ_Dataset". To get the RGB to NIR and temperature prediction using IITJ dataset, run in the following order
