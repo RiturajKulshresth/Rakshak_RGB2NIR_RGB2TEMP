@@ -24,7 +24,7 @@ def cropSquare(img, size, interpolation=cv2.INTER_AREA):
 def prepareRGBData():
     img_data = []
     
-    path1 = 'IITJ-Data/train/RGB'
+    path1 = 'val_256/RGB'
     files = os.listdir(path1)
     for i in tqdm(files):
         img = cv2.imread(path1 + '/' + i, 1)
@@ -52,7 +52,7 @@ def prepareRGBData():
 def prepareNIRData():
     img_data2 = []
     
-    path2 ='IITJ-Data/train/NIR'
+    path2 ='val_256/NIR'
     files = os.listdir(path2)
     for i in tqdm(files):
         img = cv2.imread(path2 + '/' + i, 1)
@@ -81,7 +81,7 @@ def prepareNIRData():
 def testimage():
     img_data3 = []
     
-    img = cv2.imread('IITJ-Data/test/0.jpg', 1)
+    img = cv2.imread('val_256/0.jpg', 1)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, (Size, Size))
     # img = cropSquare(img, Size)
