@@ -81,7 +81,7 @@ def prepareNIRData():
 def testimage():
     img_data3 = []
     
-    img = cv2.imread('val_256/0.jpg', 1)
+    img = cv2.imread('val_256/457.tiff', 1)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, (Size, Size))
     # img = cropSquare(img, Size)
