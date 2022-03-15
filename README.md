@@ -9,7 +9,7 @@ Therfore, this project is divided into 2 parts -
 2. The second part of the project is where we try to generate the NIR image from RGB images of the human faces.
 
 ## Datasets
-The datasets used can be found [here](https://drive.google.com/drive/folders/1KKxQJwAqngnFTcb0kEzXOJXzyoWiyMzw?usp=sharing)
+The datasets used can be found [here](https://drive.google.com/drive/folders/1KKxQJwAqngnFTcb0kEzXOJXzyoWiyMzw?usp=sharing).
 
 ### Dataset I
 
