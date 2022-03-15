@@ -60,7 +60,10 @@ All files can be found in the directory "Final_codes/Dataset_I". To get the temp
 - "Final codes/Dataset I/Predict_selfdata_temp.ipynb" to predict the temperature of the forehead
 
 ### Run for EPFL Dataset
+Since the dataset is rather small, the data can be easily restructured manually such that it is the form shown in "FLIR data restructured" [here](https://drive.google.com/drive/folders/1KKxQJwAqngnFTcb0kEzXOJXzyoWiyMzw?usp=sharing). Once this is done the following can be run
 
+- "RGN_to_NIR_Flir_Colab_1.ipynb" to train and predict NIR from RGB
+- "RgbToNir.py" is the same as the above notebook, just in the form of .py file.
 
 ### Run for IITJ Dataset
 All files can be found in directory "Final_codes/IITJ_Dataset". To get the RGB to NIR and temperature prediction using IITJ dataset, run in the following order
