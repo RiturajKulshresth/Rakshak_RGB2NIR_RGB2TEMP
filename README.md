@@ -46,3 +46,14 @@ Similar experiments with the IITJ datasets gave us the below results -
 <p align="center">
 <img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/0.jpg"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/92_0_256x7_100.png">
 </p>
+
+## Code
+
+All the code files are organized according to the datasets that it operates on. Some of them are experiments done along the way to achieve the final results and the rest are the actual code that contribute to the final result. To run and get the resluts shown above, follow the steps given below 
+
+### Run for Dataset I 
+All files can be found in the directory ""
+
+### Run for EPFL Dataset
+
+### Run for IITJ Dataset
